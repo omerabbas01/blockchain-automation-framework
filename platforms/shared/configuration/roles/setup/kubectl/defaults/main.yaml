@@ -2,8 +2,8 @@
 tmp_directory: "{{ lookup('env', 'TMPDIR') | default('/tmp',true) }}"
 
 default:
-  version: "1.19.8"
-  os: "linux"    # use "darwin" for MacOS X, "windows" for Windows
+  version: "1.21.2"
+  os: "darwin"    # use "darwin" for MacOS X, "windows" for Windows
   arch: "amd64"  # other possible values: "386","arm64","arm","ppc64le","s390x"
-  bin_directory: "~/bin"  
-  checksum: "sha256:8388ff8b5c676bdbb8fe07ef7077de937b0bf60154f302df5f248f38f95122aa"
+  bin_directory: "/usr/local/bin"
+  checksum: "sha256:02392f39fa8e058c39ba4a56eb91be479e23ed139cbcbd7557f73525517979d5"
